@@ -99,6 +99,11 @@ p {
 
 /*-----------CASES--------------*/
 
+.cases {
+    width: 27%;
+    margin: 3%;
+    float: left;
+}
 /*------------MARTIN--------------*/   
 
 #profilbillede {
@@ -158,12 +163,7 @@ ul li {
     margin-left: 1%;
 }
 
-/*-----------KONTAKT------------*/
-
-
 /*------------SLUT---------------*/
-
-
 
 
 /*----NAVIGATION,LOGO,ANDET----*/
@@ -217,6 +217,7 @@ ul li {
     margin: 3%;
     line-height: 1.5;
     letter-spacing: 1px;
+    text-align: center;
 }
     
 /*-----------FORSIDE-----------*/
@@ -235,6 +236,15 @@ ul li {
 
 /*-----------CASES--------------*/
 
+    .cases {
+        text-align: center;
+        padding-bottom: 15%;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+    
 /*-----------MARTIN-------------*/
 
     .column2 {
@@ -259,10 +269,6 @@ div.gallery {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-}
-    
-/*------------KONTAKT--------------*/    
-        
-    
+}  
     
 }
