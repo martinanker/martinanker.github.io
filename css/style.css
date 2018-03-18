@@ -39,7 +39,6 @@ label {
     font-size: 26px;
     line-height: 70px;
     display: none;
-    widows:;
     float: right;
 }
 
@@ -77,7 +76,6 @@ p {
     clear: both;
 }
 
-
 /*-----------FORSIDE-----------*/
 
 #velkommen {
@@ -89,6 +87,8 @@ p {
     letter-spacing: 3px;
     padding-bottom: 10%;
     color: #363636;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .column {
