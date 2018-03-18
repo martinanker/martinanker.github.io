@@ -81,15 +81,15 @@ p {
 /*-----------FORSIDE-----------*/
 
 #velkommen {
-        text-align: center;
-        text-transform: none;
-        font-size: 180%;
-        font-weight: lighter;
-        line-height: 1.4;
-        letter-spacing: 3px;
-        padding-bottom: 10%;
-        color: #363636;
-    }
+    text-align: center;
+    text-transform: none;
+    font-size: 180%;
+    font-weight: lighter;
+    line-height: 1.4;
+    letter-spacing: 3px;
+    padding-bottom: 10%;
+    color: #363636;
+}
 
 .column {
     float: left;
@@ -99,14 +99,12 @@ p {
 
 /*-----------CASES--------------*/
 
-
 /*------------MARTIN--------------*/   
 
 #profilbillede {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    filter: grayscale(0%);
     width: 25%;
     border-radius: 50%;
     padding-bottom: 2%;
@@ -137,6 +135,11 @@ ul li a:visited {
     color: #4fa0b0;
     }
 
+a img {
+    padding-left: 2%;
+    padding-right: 3%;
+}
+
 /*-----------GALLERI-------------*/
 
 div.gallery {
@@ -163,7 +166,6 @@ ul li {
 
 
 
-/*-----------MOBIL-------------*/
 /*----NAVIGATION,LOGO,ANDET----*/
 
 @media (max-width: 768px) {
@@ -215,10 +217,8 @@ ul li {
     margin: 3%;
     line-height: 1.5;
     letter-spacing: 1px;
-    text-align
 }
     
-
 /*-----------FORSIDE-----------*/
     
     .forsideh2 {
@@ -243,9 +243,16 @@ ul li {
     margin-right: auto;
     padding-bottom: 7%;
     width: 80%;
-    text-align: center;
+    text-align: left;
     }
     
+    h2 {
+        text-align: center;
+    }
+    
+    a img {
+        padding-left: 0;
+    }
 /*-----------GALLERI-------------*/
 
 div.gallery {
